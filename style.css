@@ -352,6 +352,22 @@ section:last-child {
   line-height: 1.55;
 }
 
+.timeline-cert-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.76rem;
+  color: var(--copper);
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.timeline-cert-link:hover {
+  color: var(--paper);
+  transform: translateX(3px);
+}
+
 /* ---------- skills ---------- */
 .skill-groups {
   display: grid;
